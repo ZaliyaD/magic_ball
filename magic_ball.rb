@@ -6,11 +6,6 @@ greetings = [
   'Здравствуй, смертный. Сегодня для тебя такой ответ:'
 ]
 
-puts greetings.sample
-puts
-
-sleep 2
-
 answers = [
   # Положительные
   'Бесспорно',
@@ -40,5 +35,10 @@ answers = [
   'Перспективы не очень хорошие',
   'Весьма сомнительно'
 ]
+
+puts greetings.sample
+puts
+
+sleep 2
 
 puts answers.sample
